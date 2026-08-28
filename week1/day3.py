@@ -86,7 +86,7 @@ elif(x>100):
 else:
     print("x is not 10")
 
-#
+#nested if else
 x=201
 if (x==10):
     print("x is:",x)
