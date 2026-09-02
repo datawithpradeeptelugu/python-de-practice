@@ -69,12 +69,6 @@ print(user)
 #Challenge:Keep Only String Values & Convert Them to UPPERCASE
 user={'id': 1,'name': 'john',"age":30, 'city': 'berlin' }
 
-'''1) Create New dictionary
-   2) Keep only pair with strings =>Filtering
-   3) Convert Values to Uppercase =>Data Trasformation
-   4) Elegant & Short Way
-'''
-
 '''For this case we are using 
 Dict comprehensions =>3 Components
 1)Key Value Expression
@@ -89,6 +83,10 @@ user_str={
 }
 
 print(user_str)  #{'name': 'JOHN', 'city': 'BERLIN'}
+
+
+
+
 
 
 
