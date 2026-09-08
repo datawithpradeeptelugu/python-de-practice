@@ -1,3 +1,11 @@
+#Nested -if
+
+'''if statement inside another if 
+if the first is true,
+then check the second
+'''
+
+
 score=95
 submitted_project=True
 
@@ -6,6 +14,7 @@ if score >=90:
         print("A+")
     else:
         print("A")
+
 
 elif score>=80:
     print("B")
