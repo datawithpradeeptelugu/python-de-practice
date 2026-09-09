@@ -1,73 +1,103 @@
-'''Functions:
-A small,reusable block of code that does one specific job'''
+#Built-in function
+'''
+Ex:
+Number Functions
+String Functions
+Data Structure
+'''
 
-'''Why Functions
+#1. Built-in function
 
-You usullay write small logic or flow 
+'''
+Come with python
+1)Use them
 
-Inorder to solve small problem
+print()
+len()
+str()
+input()
+type()
+bool()
+'''
 
-Over the time you might face simillar problem
-
-Where the logic going to be the almost the same as previous one
-
-What you are going to do is the copy and paste
-
-At the start,it sounds really okay
-
-over the time you are going to find out that same logic exist multiple times in your code
-
-This is the start of the choas because of imagine you found a bug or something wrong
-
-inside the logic or may be the requirement change .
-
-so now things get really annoying becasue you have to remember
-
-all the places where you use the logic and then do the changes
-
-and believe me in real project you code going to be massive
-
-atleast you are going to miss one
-
-So some of the logics got updated and others using the old logic
-
-which is going to make the result of the code inaccurate.
-
-Lose:
-Inconsistent Behaviour
-Hard to change
-Time Consuming
-Hard to read
-Hard to understand
+#2.Standard Library
+'''Two Types of Library'''
 
 
-Inorder to put same logic over and over again you are going to take your logic and put it in one place
-inside function
+'''Written by python Team
+=========================
+1)Import 
 
-And whenever you need this logic,this behaviour ,you just call the function
+2)Use them
 
-So you just don't rewrite it 
 
-you don't copy and past it 
+Those function very specific and advance that they don't expect to use 
 
-Just usins same logic whenever you want.
+All time in your code
 
-And by doing this actullay all the problems going to disapper
+So that means first we have to import the library and only after that
 
-So everything in one place
+we can start using this functions
 
-If you find for example  a bug or something wrong in the logic
+Ex:
+math 
+datatime
+random
+'''
 
-or may be the requirement change is all what you have to do is 
+#3.External Library
 
-Just go to the function and do the change only once
+'''
+Written by Community
 
-With every part of the program
+1)Install
 
-That is using it automatically  going to get the new behaviour 
+2)Import
 
-or the new updates
+3)Use them
+Ex:
 
+Pandas: To analyze and cleanup the data
+
+Matplotlib: Inorder to do the data visulization
+
+Numpy:To work with numbers and array
+
+
+First you have to install the external lab
+
+These libraries are written by community  by other developers
+
+or as well as by companies
+
+They were nice enough to share with us
+
+Now inorder to use them we have to do the extra step
+
+First we have to install the external library 
+
+Becasue it don't come up with python
+
+Then after we have to import them and finally
+
+You can start using that function
+
+
+This is the biggest strength of python
+
+There are outside thousands of people that working on solution and 
+
+sharing  it on library
+
+This what we have to do in the project
+
+All what we have to do is just and plug and play
+
+Install
+
+Import 
+
+resue it in the works that already exists
 
 
 
