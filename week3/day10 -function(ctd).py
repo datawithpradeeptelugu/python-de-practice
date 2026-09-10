@@ -149,10 +149,12 @@ multiple_factor(3) # Function Call
 
 #Ex:3 Local Variable
 
+'''Local Variable is created in side the function can be accessed only inside the function'''
+
 f=2 # f=> Gloable Variable
 
 def multiple_factor(x): #x=>Parameter ,Function Defintion
-    y=x*f 
+    y=x*f  #y is Local Variable
     print(y)
 
 multiple_factor(3) # Function Call
