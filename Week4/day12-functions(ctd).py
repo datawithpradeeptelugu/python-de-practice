@@ -61,6 +61,6 @@ def clean_name(name):
     up_cleaned=name.strip().upper()
     return lo_cleaned,up_cleaned
 
-lo_name,up_name=clean_name(" maria ")
+lo_name,up_name=clean_name(" Maria ")
 print(lo_name)
 print(up_name)
