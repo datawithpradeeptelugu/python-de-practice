@@ -1,4 +1,4 @@
-                            #Action Functions
+                            #1.Action Functions
 
 
 '''Design to perform an operation in the system instead of returning a value'''
@@ -15,7 +15,7 @@ write_log("App Stopped")
 
 
 
-                                #Trasformation Functions
+                                #2.Trasformation Functions
 '''Raw data goes in gets trasformed and returns processed data'''
 #Task :Cleans Email Address and splits them into structured data (User Name and Domain)
 def clean_and_split_email(email):
@@ -27,7 +27,7 @@ def clean_and_split_email(email):
 
 print(clean_and_split_email("sara@gmail.com"))
 
-                        #Validation Functions
+                        #3.Validation Functions
 '''Validates a Condition and returns a boolean value'''
 #Task:Checks whether the password meets the minimum requirement of 8 characters
 
@@ -41,3 +41,8 @@ def is_valid_email(email):
     return "@" in email and "." in email
 print(is_valid_email("sara.com"))
 print(is_valid_email("sara@gmail.com"))
+
+                    #4.Orchestrator Function
+'''Controls program flow by calling other functions in the correct order'''
+
+ 
